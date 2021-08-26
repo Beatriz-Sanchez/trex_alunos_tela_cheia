@@ -101,9 +101,14 @@ function draw(){
   //fundo branco
   background("white");
   
+  textFont(fonte);
+  fill("blue")
+  text("Presented By Bia JJ",20,20);
+  
+  
   if(record>0){
   textFont(fonte);
-  fill("darkgray")
+  fill("dimgray")
   text(record,windowWidth-100,20);
   }
   
